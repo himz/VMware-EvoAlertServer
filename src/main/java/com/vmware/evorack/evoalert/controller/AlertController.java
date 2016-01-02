@@ -1,4 +1,4 @@
-package controller;
+package com.vmware.evorack.evoalert.controller;
 
 import java.util.ArrayList;
 import java.util.List;

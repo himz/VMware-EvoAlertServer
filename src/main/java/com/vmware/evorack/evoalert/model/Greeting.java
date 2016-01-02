@@ -1,4 +1,4 @@
-package model;
+package com.vmware.evorack.evoalert.model;
 
 public class Greeting {
 

@@ -1,4 +1,4 @@
-package controller;
+package com.vmware.evorack.evoalert.controller;
 
 
 import java.util.ArrayList;
@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import model.Employee;
+import com.vmware.evorack.evoalert.model.Employee;
  
 /**
  * Handles requests for the Employee service.

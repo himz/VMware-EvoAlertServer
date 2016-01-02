@@ -1,4 +1,4 @@
-package controller;
+package com.vmware.evorack.evoalert.controller;
  
 public class RestURIConstants {
  
