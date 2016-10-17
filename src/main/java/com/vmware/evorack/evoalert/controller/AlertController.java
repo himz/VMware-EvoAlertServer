@@ -44,4 +44,11 @@ public class AlertController {
         	return "No Alerts to show";
         }
     }
+    
+    @RequestMapping(value = RestURIConstants.CLEAR_ALL_ALERTS, method = RequestMethod.GET)
+    public @ResponseBody String clearAllAlerts() {
+        logger.info("Start clear all  alerts");
+        alertList.clear();
+        return "Alert list cleared";
+    }
 }

@@ -11,5 +11,6 @@ public class RestURIConstants {
     public static final String INGEST_ALERT = "/rest/ingest/alert";
     public static final String GET_LATEST_ALERT = "/rest/get/alert";
     public static final String GET_ALL_ALERTS= "/rest/get/alerts";
+    public static final String CLEAR_ALL_ALERTS= "/rest/get/clear";
     
 }
